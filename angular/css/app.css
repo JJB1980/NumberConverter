@@ -1,0 +1,79 @@
+/* app css stylesheet */
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+hr {
+    margin: 0em;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    
+    color: white;
+    padding: 1em;
+    margin: 0em;
+}
+
+.container {
+    padding: 2em;
+    width: 35em;
+    position: relative;
+    top: 7em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+	background-color: white;
+	min-height: 100%
+}
+
+input {
+	border: 1px solid #C2C2D6;
+	padding: 0.15em;
+}
+
+select {
+	border: 1px solid #C2C2D6;
+	padding: 0.2em;
+}
+
+table {
+	margin-top: 1em;
+}
+
+table td, th {
+	padding: 0.5em;
+	border-collapse: collapse;
+	border: 1px solid #E0E0EB;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.25em;
+}
+
+h2 {
+	font-size: 1.75em;
+}
+
+footer {
+    width: 100%;
+    text-align: right;
+    background-color: #F5FAFF;
+    padding: 1em;
+    padding-right: 5em;
+    margin: 0em;
+    position:absolute;
+    height: 50px;
+    bottom:0;
+    left:0;
+    z-index: -1;
+}
