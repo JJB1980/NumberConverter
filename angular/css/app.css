@@ -19,6 +19,15 @@ hr {
     margin: 0em;
 }
 
+#content.ng-enter {
+    -webkit-transition:0.8s linear all;
+    transition:0.8s linear all;
+    opacity: 0;
+}
+#content.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+
 .container {
     padding: 2em;
     width: 35em;
